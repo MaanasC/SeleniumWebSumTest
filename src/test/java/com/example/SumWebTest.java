@@ -34,7 +34,7 @@ public class SumWebTest {
     @Test
     public void testSumOfTwoNumbers() throws InterruptedException {
         // ✅ Use the correct file URL for your HTML in Jenkins workspace
-        String url = "file:///C:/ProgramData/Jenkins/.jenkins/workspace/EXP8/src/test/resources/sum.html";
+        String url = "file:///C:/ProgramData/Jenkins/.jenkins/workspace/exp8_2/src/test/resources/sum.html";
         driver.get(url);
 
         // Explicit wait until the first input is present
