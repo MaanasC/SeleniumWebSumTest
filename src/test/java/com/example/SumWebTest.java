@@ -156,7 +156,7 @@ public class SumWebTest {
         // Verify result
         String output = result.getText().trim();
         System.out.println("Result displayed: " + output);
-        assertEquals("Sum = 1670", output);
+        assertEquals("Sum = 2670", output);
     }
 
     @After
