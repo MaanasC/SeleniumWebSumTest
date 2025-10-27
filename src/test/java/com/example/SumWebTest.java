@@ -128,7 +128,7 @@ public class SumWebTest {
     }
 
         @Test
-    public void testSumOfTwoNumbers() throws InterruptedException {
+    public void testSumOfTwoNumbers4() throws InterruptedException {
         // ✅ Use the correct file URL for your HTML in Jenkins workspace
         String url = "file:///C:/ProgramData/Jenkins/.jenkins/workspace/EXP9/src/test/resources/sum.html";
         driver.get(url);
